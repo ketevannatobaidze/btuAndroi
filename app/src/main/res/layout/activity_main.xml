@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#009444C5"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/enterN"
+        android:layout_width="50pt"
+        android:layout_height="30pt"
+
+        android:layout_margin="20pt"
+        android:width="400pt" />
+
+    <Button
+        android:id="@+id/Click"
+        android:layout_width="wrap_content"
+        android:layout_height="30pt"
+        android:layout_marginRight="-50pt"
+        android:layout_marginTop="180pt"
+        android:onClick="ClickBtn"
+        android:text="button" />
+
+    <TextView
+        android:id="@+id/resultN"
+
+        android:layout_width="150pt"
+        android:layout_height="30pt"
+        android:layout_marginTop="10pt"
+
+        android:width="150pt"
+        android:height="30pt"
+        android:textColor="@color/black"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
